@@ -1,0 +1,18 @@
+{
+    "script":"script.pig",
+    "inputs":[
+        "input":{
+            "data":"input.csv",
+            "schema":"alias.schema"
+        }
+    ]
+    "outputs":[
+        "output":{
+            "data":"output.csv",
+            "schema":"alias.schema" 
+        }
+    ],
+    "opts":{
+        "increment":1
+    }
+}
